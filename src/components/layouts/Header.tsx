@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 // import Navbar from '~/modules/Navbar'
 import logo from '~/assets/images/logo1s.jpg'
-import logo_w from '~/assets/images/logo_w.png'
 import {
   Bars3Icon,
   XMarkIcon

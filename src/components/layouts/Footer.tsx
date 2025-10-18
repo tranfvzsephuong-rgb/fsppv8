@@ -1,5 +1,4 @@
 // import { Link } from 'react-router-dom'
-import logo from '~/assets/images/logowusmall-text.svg'
 import twitter from '~/assets/images/twitter-2.svg'
 import facebook from '~/assets/images/facebook-icon-1-1.svg'
 import youtube from '~/assets/images/youtube-icon-1-1.svg'
