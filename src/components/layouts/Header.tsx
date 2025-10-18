@@ -40,7 +40,7 @@ const Header = () => {
           <Link to='/dichvunhantien'>
             {' '}
             <ListItem className='flex items-center gap-2 p-2 m-2 text-2xl hover:underline underline-offset-[10px] decoration-[#FFDD00]'>
-              Nhận tiền nước ngoài
+              Nhận tiền
             </ListItem>
           </Link>
         </Typography>
