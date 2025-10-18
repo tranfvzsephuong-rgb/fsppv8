@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 // import Navbar from '~/modules/Navbar'
-import logo from '~/assets/images/logo1s.jpg'
+// import logo from '~/assets/images/logo1s.jpg'
 import {
   Bars3Icon,
   XMarkIcon
@@ -89,7 +89,7 @@ const Header = () => {
       >
         <div className='flex items-center md:justify-between text-blue-gray-900'>
           <Link to='/' className='hidden sm:flex items-center min-w-[240px]'>
-            <img className='text-2xl w-20 font-semibold ml-10' src={logo} />
+            <img className='text-2xl w-20 font-semibold ml-10' src='/logo1s.jpg' />
           </Link>
           <div className='hidden lg:block'>
             <NavList />
@@ -105,7 +105,7 @@ const Header = () => {
             <span className='text-xl w-10 font-semibold ml-2'>Dịch vụ nhận tiền</span>
           </div>
           <Link to={'/'} className='sm:block md:hidden min-w-[50px] items-right'>
-            <img className='text-2xl w-12 font-semibold ml-10' src={logo} />
+            <img className='text-2xl w-12 font-semibold ml-10' src='/logo1s.jpg' />
           </Link>
         </div>
         <Collapse open={openNav}>
