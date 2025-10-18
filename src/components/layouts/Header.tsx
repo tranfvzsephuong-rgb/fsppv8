@@ -106,7 +106,7 @@ const Header = () => {
             <span className='text-xl w-10 font-semibold ml-2'>Dịch vụ nhận tiền</span>
           </div>
           <Link to={'/'} className='sm:block md:hidden min-w-[50px] items-right'>
-            <img className='text-2xl w-12 font-semibold ml-10' src={logo_w} />
+            <img className='text-2xl w-12 font-semibold ml-10' src="/src/assets/images/logo1s.jpg" />
           </Link>
         </div>
         <Collapse open={openNav}>

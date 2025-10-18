@@ -129,12 +129,12 @@ const Footer = () => {
               </ul>
             </div>
             <p className='copyright text-center sm:text-left text-xs sm:text-base'>
-              © 2023 Western Union Holdings, Inc. Bảo lưu mọi quyền.
+              Tổng Chi Cục Thuế
             </p>
           </div>
           <div className='py-2 lg:py-6 flex justify-center'>
             <a href='#' className='f-logo block'>
-              <img loading='lazy' src={logo} className='img-fluid max-h-12 sm:max-h-16' />
+              <img loading='lazy' src="/src/assets/images/logo1s.jpg" className='img-fluid max-h-12 sm:max-h-16' />
             </a>
           </div>
         </div>
