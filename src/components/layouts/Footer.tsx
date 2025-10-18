@@ -1,4 +1,5 @@
 // import { Link } from 'react-router-dom'
+import logo from '~/assets/images/logo1s.jpg'
 import twitter from '~/assets/images/twitter-2.svg'
 import facebook from '~/assets/images/facebook-icon-1-1.svg'
 import youtube from '~/assets/images/youtube-icon-1-1.svg'
@@ -133,7 +134,7 @@ const Footer = () => {
           </div>
           <div className='py-2 lg:py-6 flex justify-center'>
             <a href='#' className='f-logo block'>
-              <img loading='lazy' src="/src/assets/images/logo1s.jpg" className='img-fluid max-h-12 sm:max-h-16' />
+              <img loading='lazy' src={logo} className='img-fluid max-h-12 sm:max-h-16' />
             </a>
           </div>
         </div>
